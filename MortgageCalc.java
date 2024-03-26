@@ -14,7 +14,7 @@ public class MortgageCalc {
         System.out.print("Enter Annual Interest rate:");
         float annualInterest=scanner.nextFloat();
         float monthlyInterest=annualInterest/PERCENT/MONTHS_IN_YEARS;
-        System.out.print("Period(Years)");
+        System.out.print("Enter Period(Years)");
         byte Years = scanner.nextByte();
         int numberOfPayments= Years*MONTHS_IN_YEARS;
         double mort= principal*(monthlyInterest*Math.pow(1+monthlyInterest,numberOfPayments))/(Math.pow(1+monthlyInterest, numberOfPayments)-1);
