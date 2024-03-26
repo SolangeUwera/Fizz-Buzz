@@ -9,9 +9,9 @@ public class MortgageCalc {
         final byte PERCENT=100;
 
         Scanner scanner= new Scanner(System.in);
-        System.out.print("Principal");
+        System.out.print("Enter Principal");
         int principal = scanner.nextInt();
-        System.out.print("Annual Interest rate:");
+        System.out.print("Enter Annual Interest rate:");
         float annualInterest=scanner.nextFloat();
         float monthlyInterest=annualInterest/PERCENT/MONTHS_IN_YEARS;
         System.out.print("Period(Years)");
