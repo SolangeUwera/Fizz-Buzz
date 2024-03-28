@@ -1,6 +1,6 @@
 import java.text.NumberFormat;
-import java.time.Period;
-import java.time.Year;
+// import java.time.Period;
+// import java.time.Year;
 import java.util.Scanner;
  
 public class MortgageCalc {
@@ -9,7 +9,7 @@ public class MortgageCalc {
         final byte PERCENT=100;
 
         Scanner scanner= new Scanner(System.in);
-        System.out.print("Enter Principal");
+        System.out.print("Enter Principal please:");
         int principal = scanner.nextInt();
         System.out.print("Enter Annual Interest rate:");
         float annualInterest=scanner.nextFloat();
